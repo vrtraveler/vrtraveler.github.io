@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,800,900" rel="stylesheet">
+        <style>
+            /**
+            Grå farge fra vrtraveler - #575855
+            **/
+
+            /* Tiny devices less than 768px wide*/
+            body {
+                font-family: 'Raleway';
+                margin: 0;
+            }
+
+            a {
+                color: #00a5d9;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+                        
+            main {
+                width: auto;
+                margin: 0 auto;
+            }
+
+            .logo {
+                height: auto;
+                width: auto;
+                max-width: 100%;
+
+            }
+
+            footer {
+                #color: #262b2f;
+                color: #575855;
+                #background-color: #f4f7f9;
+            }
+            
+            footer ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 20px 30px;
+            }
+            
+            footer ul li {
+                #float: left;
+                #padding: 10px;
+
+                display: inline-block;
+                text-align: center;
+            }
+
+            footer a {
+                #color: #1a1919;
+            }
+
+            footer .sub {
+                padding: 20px 30px;
+                #background-color: #e4e7e9;
+                text-align: center;
+            }
+
+            /* Small devices (tablets, 768px and up) */
+            @media (min-width: 768px) {
+                main {
+                    width: 760px;
+                }
+            }
+
+            /* Medium devices (desktops, 992px and up) */
+            @media (min-width: 992px) {
+                main {
+                    width: 880px;
+                }
+            }
+
+            /* Large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) {
+                main {
+                    width: 1090px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <img src="logo-black-with-colors.png" alt="vr traveler" class="logo"/>
+        </main>
+        <footer>
+            <ul class="clearfix">
+                <li><a href="#">facebook</a></li>
+                <li><a href="#">instagram</a></li>
+                <li><a href="mailto:kontakt@vrtraveler.com">kontakt@vrtraveler.com</a></li>
+            </ul>
+            <div class="sub">© 2018 VR Traveler AS</div>
+        </footer>
+    </body>
+</html>
